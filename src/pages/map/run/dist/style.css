@@ -1,0 +1,222 @@
+.map {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.map .innerMap {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #eee;
+  z-index: 1;
+  overflow: hidden;
+}
+.map .detail {
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 80px;
+  z-index: 99;
+}
+.map .bottom {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 -1px 5px #bbb;
+}
+.map .icon {
+  display: inline-block;
+  position: absolute;
+  bottom: 230px;
+  right: 20px;
+  z-index: 99;
+}
+.map .eleContainer {
+  width: 95%;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  z-index: 2;
+  background: #fff;
+  height: 50px;
+  display: flex;
+  border-radius: 10px 10px 0 0;
+}
+.map .eleContainer .title {
+  color: #5E6FBF;
+  font-size: 16px;
+  line-height: 50px;
+  margin-left: 3%;
+}
+.map .eleContainer .eleWrap {
+  margin-left: 1%;
+  line-height: 46px;
+  display: flex;
+}
+.map .eleContainer .eleWrap .imgWrap {
+  width: 125px;
+  display: flex;
+}
+.map .eleContainer .eleWrap .imgWrap .eleName {
+  width: max-content;
+  margin-right: 8px;
+}
+.map .eleContainer .eleWrap .imgWrap .eleMap {
+  width: 15px;
+  margin-bottom: 2px;
+}
+.map .kindNums {
+  position: absolute;
+  z-index: 3;
+  top: 62px;
+  left: 59px;
+}
+.map .kindNums div {
+  background: #5568BA;
+  border-radius: 4px;
+  margin-bottom: 7px;
+  color: #fff;
+  padding: 0 0 0 11px;
+  min-width: 133px;
+  width: max-content;
+}
+.map .topContainer {
+  opacity: 0.9;
+  position: absolute;
+  z-index: 2;
+  width: 390px;
+  background: #fff;
+  height: 59px;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.map .topContainer .itemWrap {
+  display: flex;
+  font-size: 14px;
+  color: #2b3a57;
+  cursor: pointer;
+}
+.map .topContainer .itemWrap .btnFalse {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #eee;
+  margin-top: 15px;
+}
+.map .topContainer .itemWrap .redPoint {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e94e39;
+  margin-top: 15px;
+}
+.map .topContainer .itemWrap .orangePoint {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #f1892c;
+  margin-top: 15px;
+}
+.map .topContainer .itemWrap .yellowPoint {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #f1c52c;
+  margin-top: 15px;
+}
+.map .topContainer .itemWrap .bluePoint {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #4284ff;
+  margin-top: 15px;
+}
+.map .topContainer .itemWrap .itemTitle {
+  line-height: 40px;
+  margin-left: 5px;
+}
+.map .topContainer .itemWrap .itemTitle span {
+  margin-left: 3px;
+}
+.map .topContainer .itemnumber1 {
+  color: #FE3C29;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0.5;
+  padding-bottom: 11px;
+}
+.map .topContainer .itemnumber2 {
+  color: #FF8300;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0.5;
+  padding-bottom: 11px;
+}
+.map .topContainer .itemnumber3 {
+  color: #FAC400;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0.5;
+  padding-bottom: 11px;
+}
+.map .topContainer .itemnumber4 {
+  color: #2383FF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 0.5;
+  padding-bottom: 11px;
+}
+.map .oneGrid {
+  background: #fff;
+  opacity: 0.9;
+  width: 9%;
+  height: 150px;
+  z-index: 2;
+  position: absolute;
+  top: 21px;
+  left: 578px;
+  border-radius: 9px;
+  box-shadow: 1px 1px 8px 1px;
+}
+.map .oneGrid div {
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+:global header > .ant-menu-dark {
+  background: #0B1F3E;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+:global .ant-menu-item {
+  width: 156px;
+  height: 44px;
+  box-sizing: border-box;
+  line-height: 44px;
+}
+:global .ant-menu-item-selected {
+  background: #5970D8;
+}
+:global .ant-tabs {
+  width: 100%;
+  height: 800px;
+  overflow-y: auto;
+}
+:global .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #fff;
+}

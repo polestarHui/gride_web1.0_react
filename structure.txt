@@ -1,0 +1,215 @@
+.
+├── ./assets #资源文件存储
+│   ├── ./assets/detail #背景
+│   │   ├── ./assets/detail/background.png
+│   │   └── ./assets/detail/bg-1.mp4
+│   ├── ./assets/iconfont #字体
+│   │   ├── ./assets/iconfont/iconfont.css
+│   │   ├── ./assets/iconfont/iconfont.eot
+│   │   ├── ./assets/iconfont/iconfont.js
+│   │   ├── ./assets/iconfont/iconfont.json
+│   │   ├── ./assets/iconfont/iconfont.svg
+│   │   ├── ./assets/iconfont/iconfont.ttf
+│   │   ├── ./assets/iconfont/iconfont.woff
+│   │   └── ./assets/iconfont/iconfont.woff2
+│   ├── ./assets/layout
+│   │   └── ./assets/layout/defavatar.png
+│   ├── ./assets/logo
+│   │   ├── ./assets/logo/companylogo-black.png
+│   │   └── ./assets/logo/companylogo.png
+│   └── ./assets/map
+│       ├── ./assets/map/baojiajiequ.svg
+│       ├── ./assets/map/ceju.svg
+│       ├── ./assets/map/chongdianzhuang.svg
+│       ├── ./assets/map/diancheguandaojiaochadian.svg
+│       ├── ./assets/map/ditie1.svg
+│       ├── ./assets/map/ditieguidaojiaodian.svg
+│       ├── ./assets/map/dongtaizagandianliu.svg
+│       ├── ./assets/map/fangfucengjueyuandianzu.svg
+│       ├── ./assets/map/fangfucengposundian.svg
+│       ├── ./assets/map/fushishijian.svg
+│       ├── ./assets/map/gaojisousuo.svg
+│       ├── ./assets/map/guancai.svg
+│       ├── ./assets/map/guanjing.svg
+│       ├── ./assets/map/guanxianchangdu.svg
+│       ├── ./assets/map/index.js
+│       ├── ./assets/map/jianzhuwu1.svg
+│       ├── ./assets/map/jiawan1.svg
+│       ├── ./assets/map/kongqi.svg
+│       ├── ./assets/map/leftjt.svg
+│       ├── ./assets/map/lukuang.svg
+│       ├── ./assets/map/quanping.svg
+│       ├── ./assets/map/renkouliudong.svg
+│       ├── ./assets/map/search.svg
+│       ├── ./assets/map/sjt.svg
+│       ├── ./assets/map/tielu1.svg
+│       ├── ./assets/map/tieluguandaojiaodian.svg
+│       ├── ./assets/map/touyunnianxian.svg
+│       ├── ./assets/map/turangdianzushuai.svg
+│       ├── ./assets/map/wailipohuaishijian.svg
+│       ├── ./assets/map/weixing.svg
+│       ├── ./assets/map/wuguidianche.svg
+│       ├── ./assets/map/yalijizhi.svg
+│       ├── ./assets/map/yingjishijian.svg
+│       ├── ./assets/map/yinhuanjibie1.svg
+│       ├── ./assets/map/yinjibaohujieguo.svg
+│       ├── ./assets/map/yiwan3.svg
+│       ├── ./assets/map/zhiliudianweitidu.svg
+│       ├── ./assets/map/zhongdiandanwei.svg
+│       └── ./assets/map/zhongdianjianzhu.svg
+├── ./framework
+│   ├── ./framework/loading
+│   │   ├── ./framework/loading/index.js
+│   │   ├── ./framework/loading/loading-2.gif
+│   │   ├── ./framework/loading/loading.gif
+│   │   └── ./framework/loading/style.less
+│   ├── ./framework/module
+│   │   ├── ./framework/module/bottom-slider
+│   │   │   ├── ./framework/module/bottom-slider/index.js
+│   │   │   └── ./framework/module/bottom-slider/style.less
+│   │   ├── ./framework/module/button-active
+│   │   │   ├── ./framework/module/button-active/index.js
+│   │   │   └── ./framework/module/button-active/style.less
+│   │   ├── ./framework/module/captcha
+│   │   │   ├── ./framework/module/captcha/index.js
+│   │   │   └── ./framework/module/captcha/style.less
+│   │   ├── ./framework/module/input
+│   │   │   ├── ./framework/module/input/index.js
+│   │   │   └── ./framework/module/input/style.less
+│   │   ├── ./framework/module/list
+│   │   │   ├── ./framework/module/list/index.js
+│   │   │   └── ./framework/module/list/style.less
+│   │   ├── ./framework/module/number-box
+│   │   │   ├── ./framework/module/number-box/index.js
+│   │   │   └── ./framework/module/number-box/style.less
+│   │   ├── ./framework/module/right-slider
+│   │   │   ├── ./framework/module/right-slider/index.js
+│   │   │   └── ./framework/module/right-slider/style.less
+│   │   ├── ./framework/module/style.less
+│   │   ├── ./framework/module/tab
+│   │   │   ├── ./framework/module/tab/content
+│   │   │   │   ├── ./framework/module/tab/content/index.js
+│   │   │   │   └── ./framework/module/tab/content/style.less
+│   │   │   ├── ./framework/module/tab/index.js
+│   │   │   └── ./framework/module/tab/style.less
+│   │   ├── ./framework/module/table
+│   │   │   ├── ./framework/module/table/index.js
+│   │   │   └── ./framework/module/table/style.less
+│   │   └── ./framework/module/theme.less
+│   ├── ./framework/page
+│   │   └── ./framework/page/login
+│   │       ├── ./framework/page/login/bg-static.png
+│   │       ├── ./framework/page/login/index.js
+│   │       └── ./framework/page/login/style.less
+│   └── ./framework/tools
+│       ├── ./framework/tools/ajax
+│       │   └── ./framework/tools/ajax/index.js
+│       ├── ./framework/tools/array.js
+│       ├── ./framework/tools/event.js
+│       ├── ./framework/tools/index.js
+│       ├── ./framework/tools/md5.js
+│       ├── ./framework/tools/message.js
+│       └── ./framework/tools/rgb
+│           └── ./framework/tools/rgb/index.js
+├── ./global.less
+├── ./layouts
+│   ├── ./layouts/index.js
+│   └── ./layouts/style.less
+├── ./lib
+│   ├── ./lib/dataUtil
+│   │   ├── ./lib/dataUtil/0627
+│   │   │   ├── ./lib/dataUtil/0627/�\234��\224��\206\205.json
+│   │   │   ├── ./lib/dataUtil/0627/�\234��\224��\226.json
+│   │   │   ├── ./lib/dataUtil/0627/�\234��\223\201�\206\205.json
+│   │   │   ├── ./lib/dataUtil/0627/�\234��\223\201�\226.json
+│   │   │   ├── ./lib/dataUtil/0627/�\224�车�\206\205.json
+│   │   │   └── ./lib/dataUtil/0627/�\224�车�\226.json
+│   │   ├── ./lib/dataUtil/0705
+│   │   │   ├── ./lib/dataUtil/0705/�\215��\216\213建�\221�\211�.json
+│   │   │   ├── ./lib/dataUtil/0705/�\215��\216\213建�\221�\211�1.json
+│   │   │   ├── ./lib/dataUtil/0705/建�\221�\211�.json
+│   │   │   └── ./lib/dataUtil/0705/建�\221�\211�1.json
+│   │   ├── ./lib/dataUtil/coordtransform.js
+│   │   ├── ./lib/dataUtil/distanceUtil.js
+│   │   ├── ./lib/dataUtil/index.js
+│   │   ├── ./lib/dataUtil/mock
+│   │   │   ├── ./lib/dataUtil/mock/中�\203�\202��\225��\215�0626.json
+│   │   │   ├── ./lib/dataUtil/mock/�\205\205�\224�桩.json
+│   │   │   ├── ./lib/dataUtil/mock/�\234��\223\201.json
+│   │   │   ├── ./lib/dataUtil/mock/�\234��\223\201�\226500米轮�\223.json
+│   │   │   ├── ./lib/dataUtil/mock/�\224�\200��\212�修.json
+│   │   │   ├── ./lib/dataUtil/mock/�\227�修正�\221格中�\203�\202�.json
+│   │   │   ├── ./lib/dataUtil/mock/�\227�轨�\224�车.json
+│   │   │   ├── ./lib/dataUtil/mock/模�\213\237�\217�\214�.json
+│   │   │   ├── ./lib/dataUtil/mock/�\221格中�\203(�\230德).json
+│   │   │   ├── ./lib/dataUtil/mock/�\221格中�\203�\202�.json
+│   │   │   ├── ./lib/dataUtil/mock/�\221格中�\203�\202��\205�.json
+│   │   │   ├── ./lib/dataUtil/mock/�\207\215�\202��\215\225�\215.json
+│   │   │   └── ./lib/dataUtil/mock/�\223\201路.json
+│   │   └── ./lib/dataUtil/transferTool.js
+│   ├── ./lib/geojsonUtil
+│   │   └── ./lib/geojsonUtil/index.js
+│   └── ./lib/openlayers
+│       └── ./lib/openlayers/olUtils.js
+├── ./module
+│   ├── ./module/d3-circle-packing
+│   │   ├── ./module/d3-circle-packing/data.js
+│   │   ├── ./module/d3-circle-packing/index.js
+│   │   └── ./module/d3-circle-packing/style.less
+│   ├── ./module/detailComponents
+│   │   ├── ./module/detailComponents/dianchangdu
+│   │   │   └── ./module/detailComponents/dianchangdu/index.js
+│   │   ├── ./module/detailComponents/guandaochangdu
+│   │   │   └── ./module/detailComponents/guandaochangdu/index.js
+│   │   ├── ./module/detailComponents/guanjing
+│   │   │   └── ./module/detailComponents/guanjing/index.js
+│   │   ├── ./module/detailComponents/guanling
+│   │   │   └── ./module/detailComponents/guanling/index.js
+│   │   ├── ./module/detailComponents/index.js
+│   │   ├── ./module/detailComponents/jianzhuwu
+│   │   │   └── ./module/detailComponents/jianzhuwu/index.js
+│   │   ├── ./module/detailComponents/jiaodian
+│   │   │   └── ./module/detailComponents/jiaodian/index.js
+│   │   ├── ./module/detailComponents/renyuan
+│   │   │   └── ./module/detailComponents/renyuan/index.js
+│   │   ├── ./module/detailComponents/shuliang
+│   │   │   └── ./module/detailComponents/shuliang/index.js
+│   │   └── ./module/detailComponents/yalijizhi
+│   │       └── ./module/detailComponents/yalijizhi/index.js
+│   ├── ./module/ec-pies
+│   │   ├── ./module/ec-pies/data.js
+│   │   └── ./module/ec-pies/index.js
+│   ├── ./module/echartsHoc
+│   │   └── ./module/echartsHoc/index.js
+│   ├── ./module/mixComponents
+│   │   ├── ./module/mixComponents/drawUtil
+│   │   │   └── ./module/mixComponents/drawUtil/index.js
+│   │   ├── ./module/mixComponents/linear-filter
+│   │   │   ├── ./module/mixComponents/linear-filter/index.js
+│   │   │   └── ./module/mixComponents/linear-filter/style.less
+│   │   └── ./module/mixComponents/map
+│   │       ├── ./module/mixComponents/map/data.js
+│   │       ├── ./module/mixComponents/map/index.js
+│   │       └── ./module/mixComponents/map/style.less
+│   ├── ./module/popinfo
+│   │   ├── ./module/popinfo/index.js
+│   │   ├── ./module/popinfo/info.png
+│   │   └── ./module/popinfo/style.less
+│   └── ./module/switch
+│       ├── ./module/switch/index.js
+│       └── ./module/switch/style.less
+└── ./pages
+    ├── ./pages/document.ejs
+    ├── ./pages/index
+    │   └── ./pages/index/index.js
+    ├── ./pages/map
+    │   └── ./pages/map/:id
+    │       ├── ./pages/map/:id/index.js
+    │       └── ./pages/map/:id/style.less
+    └── ./pages/test
+        ├── ./pages/test/index.js
+        ├── ./pages/test/test.js
+        ├── ./pages/test/test.less
+        └── ./pages/test/test1.js
+
+57 directories, 155 files

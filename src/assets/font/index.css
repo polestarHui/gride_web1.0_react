@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'NotoSerifSC-Light';
+  src: url('./NotoSerifSC-Light.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerifSC-Bold';
+  src: url('./NotoSerifSC-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FandolSong-Bold';
+  src: url('./FandolSong-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+

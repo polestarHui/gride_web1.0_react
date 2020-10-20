@@ -1,0 +1,290 @@
+//  单网格左半部分的样式
+.leftContainer{
+  //width: 24%;
+  min-height: 776px;
+  height: max-content;
+  z-index: 2;
+  position: absolute;
+  top: 60px;
+  display: flex;
+  transition:width 2s;
+
+    //  标题样式
+    .leftTitle{
+      width: 42px;
+      padding: 17px 14px;
+      height: 90px;
+      background: #5D74DF;
+      color: #FFFFFF;
+      border-radius: 5px;
+      margin: 0 auto;
+      position: relative;
+      line-height: 2;
+      top: 350px;
+      cursor: pointer;
+    }
+    //  占比样式
+    .leftContent{
+      width:91%;
+      height: 800px;
+      background: #fff;
+      overflow-x: hidden;
+      opacity: 0.9;
+      // 每一项内容样式
+      .detailWrap{
+        width: 100%;
+        height: max-content;
+        border-bottom: 1px solid rgba(16, 16, 16,0.5);
+        .sumtitle{
+          width: 100%;
+          height: 45px;
+          color: #2b3A57;
+          font-size: 18px;
+          text-align: center;
+          line-height: 60px;
+        }
+        .everyNum{
+          display: flex;
+          width: 93%;
+          margin: auto;
+          flex-wrap:wrap;
+          .everyNumWrap{
+            cursor: pointer;
+            width: 33%;
+            height: 90px;
+            text-align: center;
+            .numberBiao{
+              color: #5466BD;
+              font-size: 42px;
+              font-weight: bold;
+              height: 50px;
+              font-family: FandolSong-Bold;
+            }
+            .numberTitle{
+              font-size: 16px;
+              color: #999;
+            }
+          }
+        }
+      }
+    }
+  }
+//多网格页面的样式
+.part3Container {
+  position: absolute;
+  z-index: 2;
+  top: 60px;
+  display: flex;
+  transition: width 2s;
+  //  标题样式
+  .leftTitle {
+    width: 42px;
+    padding: 17px 14px;
+    height: 90px;
+    background: #5D74DF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    line-height: 2;
+    top: 350px;
+    cursor: pointer;
+  }
+
+  // 每一项内容样式
+  .detailWrap {
+    width: 100%;
+    height: max-content;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.5);
+
+    .sumtitle {
+      width: 100%;
+      height: 45px;
+      color: #2b3A57;
+      font-size: 18px;
+      text-align: center;
+      line-height: 60px;
+    }
+
+    .everyNum {
+      display: flex;
+      width: 93%;
+      margin: auto;
+      flex-wrap: wrap;
+
+      .everyNumWrap {
+        cursor: pointer;
+        width: 33%;
+        height: 90px;
+        text-align: center;
+
+        .numberBiao {
+          color: #5466BD;
+          font-size: 42px;
+          font-weight: bold;
+          height: 50px;
+          font-family: FandolSong-Bold;
+        }
+
+        .numberTitle {
+          font-size: 16px;
+          color: #999;
+        }
+      }
+    }
+  }
+
+  //  指标排名的样式
+  .itemTitle {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 44px;
+    line-height: 44px;
+    font-size: 16px;
+
+    .title {
+      color: #273A59;
+      width: 33.33%;
+      text-align: center;
+      img{
+        cursor: pointer;
+      }
+    }
+
+    .titleWrap {
+      display: flex;
+
+      .title1 {
+        color: #273A59;
+        font-size: 17px;
+        margin-right: 3px;
+
+        .paixu {
+          width: 10px;
+        }
+      }
+    }
+  }
+
+  //  内容
+  .detailsContent {
+    width: 88%;
+    margin: auto;
+    //  每一项
+    .everyContent {
+      display: flex;
+      cursor: pointer;
+      text-align: center;
+      justify-content: space-around;
+      margin-bottom: 10px;
+
+      .item {
+        color: #333;
+        font-size: 15px;
+        width: 33.33%;
+        text-align: center;
+      }
+      .itemGrade1{
+        color: #FE3C29;
+        font-size: 15px;
+        width: 33.33%;
+        text-align: center;
+        font-weight: 600;
+      }
+      .itemGrade2{
+        color: #FF8300;
+        font-size: 15px;
+        width: 33.33%;
+        text-align: center;
+        font-weight: 600;
+      }
+      .itemGrade3{
+        color: #FAC400;
+        font-size: 15px;
+        width: 33.33%;
+        text-align: center;
+        font-weight: 600;
+      }
+      .itemGrade4{
+        color:#2383FF;
+        font-size: 15px;
+        width: 33.33%;
+        text-align: center;
+        font-weight: 600;
+      }
+    //  查看详情
+      .lookDetails{
+        width: 120px;
+        background: #cde2f7;
+        color: #2d2b2b;
+        border-radius: 22px;
+        font-size: 12px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+      }
+    }
+    .everyContent:hover{
+      background: rgba(195, 209, 247, 0.5);
+      border-radius: 5px;
+      box-shadow: 1px 1px 1px 1px;
+      transition: all 0.3s;
+    }
+  }
+
+  //  分页样式
+  .paging {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 30px;
+    .nextPage{
+      cursor: pointer;
+    }
+  }
+}
+
+:global {
+  //.ant-tabs-content{
+  //  height: 800px;
+  //  overflow: auto;
+  //  overflow-x: hidden;
+  //}
+  //.ant-tabs-nav{
+  //   margin:0!important;
+  //  width: 425px!important;
+  //}
+  //.ant-tabs {
+  //  width: 100%;
+  //}
+  //
+  //.ant-tabs-bar {
+  //  margin: 0;
+  //}
+  //.ant-tabs-content {
+  //  background: #fff;
+  //  width: 100%;
+  //  height: 760px;
+  //  opacity: 0.9;
+  //  overflow-x: hidden;
+  //}
+  //.ant-tabs-tab-active{
+  //  color: #fff!important;
+  //  background: linear-gradient( #6785FF, #5567C5)!important;
+  //  border-color: #f0f0f0!important;
+  //  border-bottom: 1px solid #fff!important;
+  //  width: 182px!important;
+  //  height: 50px!important;
+  //  font-size: 18px!important;
+  //  line-height: 33px!important;
+  //}
+  //.ant-tabs-tab{
+  //
+  //}
+}
+
+

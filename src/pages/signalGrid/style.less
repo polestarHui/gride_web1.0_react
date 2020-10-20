@@ -1,0 +1,201 @@
+.map{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+
+  .innerMap{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #eee;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .detail{
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    z-index: 99;
+  }
+
+  .bottom{
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    height: 200px;
+    background: rgba(255,255, 255, .8);
+    box-shadow: 0 -1px 5px #bbb
+  }
+  .icon {
+    display: inline-block;
+    position: absolute;
+    bottom: 230px;
+    right: 20px;
+    z-index: 99;
+  }
+  .returnImg{
+    width: 25px;
+    position: absolute;
+    z-index: 2;
+    right: 2.5%;
+    top: 22px;
+    cursor: pointer;
+  }
+  //  元素
+  .bottomWrap{
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    height: 92px;
+    width: 100%;
+    //元素按钮
+    .eleBtn{
+      background:#5D74DF ;
+      width: 95px;
+      height: 42px;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 42px;
+      position: fixed;
+      //bottom: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: all .3s;
+    }
+    //  元素控制样式
+    .eleContainer{
+      width: 95%;
+      position: fixed;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 0;
+      z-index: 2;
+      background: #fff;
+      //height: 50px;
+      display: flex;
+      border-radius:  10px 10px 0 0;
+      transition: all .3s;
+      .title{
+        color: #5E6FBF;
+        font-size: 16px;
+        line-height: 50px;
+        margin-left: 3%;
+      }
+      .eleWrap{
+        margin-left: 1%;
+        line-height: 46px;
+        display: flex;
+        .imgWrap{
+          width: 125px;
+          display: flex;
+          .eleName{
+            width: max-content;
+            margin-right: 8px;
+          }
+          .eleMap{
+            width: 15px;
+            margin-bottom: 2px;
+          }
+        }
+      }
+    }
+  }
+  //各底部元素数量的样式
+  .kindNums{
+    position: absolute;
+    z-index: 3;
+    top: 60px;
+    left: 20%;
+    div{
+      background: #5568BA;
+      border-radius: 4px;
+      margin-bottom: 7px;
+      color: #fff;
+      padding: 0 0 0 11px;
+      min-width: 133px;
+      width: max-content;
+    }
+  }
+
+  //日期
+  .timeWrap{
+    z-index: 2;
+    position: absolute;
+    left: 110px;
+    top: 12px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  //  顶部的筛选
+  .topContainer{
+    opacity: 0.9;
+    position: absolute;
+    z-index: 2;
+    width: 350px;
+    background: #fff;
+    height: 40px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    display: flex;
+    justify-content: space-around;
+    .itemWrap{
+      //width: 25%;
+      display: flex;
+      font-size: 14px;
+      color: #2b3a57;
+      .redPoint{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #e94e39;
+        margin-top: 15px;
+      }
+      .orangePoint{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #f1892c;
+        margin-top: 15px;
+      }
+      .yellowPoint{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #f1c52c;
+        margin-top: 15px;
+      }
+      .bluePoint{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background: #4284ff;
+        margin-top: 15px;
+      }
+      .itemTitle{
+        line-height: 40px;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+
+
+//:global {
+//  .anticon-left{
+//    position: absolute;
+//    z-index: 2;
+//    right: 2%;
+//    top: 30px;
+//  }
+//}

@@ -1,0 +1,212 @@
+.rightContainer {
+  width: 425px;
+  min-height: 776px;
+  height: max-content;
+  z-index: 2;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  transition: width 2s;
+}
+.rightContainer .rightTitle {
+  width: 42px;
+  padding: 17px 14px;
+  height: 90px;
+  background: #5D74DF;
+  color: #FFFFFF;
+  border-radius: 5px;
+  position: absolute;
+  line-height: 2;
+  top: 350px;
+  cursor: pointer;
+  right: 385px;
+  transition: right 2s;
+}
+.rightContainer .yuzhiContainer {
+  position: absolute;
+  top: 128px;
+  right: 5px;
+  width: 378px;
+  z-index: 20;
+}
+.rightContainer .yuzhiContainer .content {
+  height: max-content;
+  width: 100%;
+  margin: auto;
+  padding: 4px 16px 8px 6px;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: 127px;
+  box-shadow: 6px 4px 14px 0px;
+}
+.rightContainer .yuzhiContainer .content .rangeWrap {
+  border: 1px solid;
+  height: max-content;
+  width: 100%;
+  margin-top: 5px;
+}
+.rightContainer .yuzhiContainer .content .rangeWrap .title {
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid;
+}
+.rightContainer .yuzhiContainer .content .rangeWrap .title div {
+  width: 50%;
+  padding: 5px;
+}
+.rightContainer .yuzhiContainer .content .rangeWrap .itemWrap {
+  border-bottom: 1px solid;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+.rightContainer .yuzhiContainer .content .rangeWrap .itemWrap .itemTitle {
+  display: flex;
+}
+.rightContainer .yuzhiContainer .content .rangeWrap .itemWrapT {
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+.rightContainer .yuzhiContainer .content .rangeWrap .itemWrapT .itemTitle {
+  display: flex;
+}
+.rightContainer .contentWrap {
+  position: absolute;
+  width: 91%;
+  height: 800px;
+  background: #fff;
+  overflow: auto;
+  right: 0;
+  opacity: 0.9;
+}
+.rightContainer .contentWrap .onepart {
+  border-bottom: 1px solid rgba(16, 16, 16, 0.5);
+  width: 80%;
+  margin: auto;
+  height: max-content;
+}
+.rightContainer .contentWrap .onepart .oneTitle {
+  width: 100%;
+  height: 45px;
+  color: #263A57;
+  font-size: 18px;
+  line-height: 60px;
+  font-weight: 600;
+}
+.rightContainer .contentWrap .onepart .oneTitle .lookDetails {
+  background: #5D74DF;
+  position: absolute;
+  right: 36px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 8px;
+  cursor: pointer;
+}
+.rightContainer .contentWrap .onepart .numCount1 {
+  color: #e94e39;
+  font-size: 42px;
+  font-family: FandolSong-Bold;
+  font-weight: bold;
+}
+.rightContainer .contentWrap .onepart .numCount1 span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.rightContainer .contentWrap .onepart .numCount2 {
+  color: #f1892c;
+  font-size: 42px;
+  font-family: FandolSong-Bold;
+  font-weight: bold;
+}
+.rightContainer .contentWrap .onepart .numCount2 span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.rightContainer .contentWrap .onepart .numCount3 {
+  color: #F1c52c;
+  font-size: 42px;
+  font-family: FandolSong-Bold;
+  font-weight: bold;
+}
+.rightContainer .contentWrap .onepart .numCount3 span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.rightContainer .contentWrap .onepart .numCount4 {
+  color: #4284ff;
+  font-size: 42px;
+  font-family: FandolSong-Bold;
+  font-weight: bold;
+}
+.rightContainer .contentWrap .onepart .numCount4 span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.rightContainer .contentWrap .onepart .everyTitle {
+  color: #333333;
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.rightContainer .contentWrap .onepart .everyTitle .titlename {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #666;
+}
+.rightContainer .contentWrap .twopart {
+  width: 80%;
+  margin: auto;
+}
+.rightContainer .contentWrap .twopart .twoTitle {
+  font-size: 16px;
+  color: #2b3A57;
+  height: 45px;
+  line-height: 60px;
+}
+.rightContainer .contentWrap .twopart .everyTwowrap {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.rightContainer .contentWrap .twopart .everyTwowrap .detailsWrap {
+  text-align: center;
+  width: 33%;
+}
+.rightContainer .contentWrap .twopart .everyTwowrap .detailsWrap .numWrap {
+  color: #5466BD;
+  font-size: 40px;
+  font-weight: bold;
+  height: 50px;
+}
+.rightContainer .contentWrap .twopart .everyTwowrap .detailsWrap .numTitle {
+  color: #999999;
+  font-size: 16px;
+}
+.rightContainer .contentWrap .twopart .safeAgustWrap {
+  color: #333;
+  margin-top: 10px;
+}
+.rightContainer .contentWrap .twopart .safeAgustWrap .safeWrap {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.rightContainer .contentWrap .twopart .safeAgustWrap .safeWrap .addviceTitle {
+  margin-right: 10px;
+  font-size: 14px;
+  color: #666;
+}
+.rightContainer .contentWrap .twopart .safeAgustWrap .safeWrap .addviceDe {
+  width: 70%;
+}
